@@ -4,6 +4,7 @@ import Frame from './Frame.png'
 import Vector from './Vector.png'
 import hm from './hm.png'
 import white from './white.png'
+import Feeds from './Feeds'
 
 
 
@@ -36,7 +37,7 @@ function Stores() {
         <p> Collections</p>
         </div>
        
-     
+     <Feeds/>
       
     </div>
     

@@ -5,11 +5,13 @@ import Stores from "./components/Stores";
 
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Feeds from "./components/Feeds";
 
 function App() {
   return (
     <>
        <Stores/>
+       {/* <Feeds/> */}
       {/* <Routes>
        
         <Route path="/" element={Stores} />
