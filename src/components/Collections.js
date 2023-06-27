@@ -9,12 +9,12 @@ function Collections() {
         <div className="main31">
           <p>Beauty Products</p>
         </div>
-        <div className="main32">
+        <div className="scrool2"><div className="main32">
           <img src={Rectangle5}></img>
         </div>
         <div className="main33">
           <img src={Rectangle5}></img>
-        </div>
+        </div></div>
         <div className="main34">
           <p>Mast and Harbour and Tan Brown Solid Platform Heels</p>
         </div>
@@ -27,12 +27,12 @@ function Collections() {
         <div className="main31">
           <p>Beauty Products</p>
         </div>
-        <div className="main32">
+        <div className="scrool2"><div className="main32">
           <img src={Rectangle5}></img>
         </div>
         <div className="main33">
           <img src={Rectangle5}></img>
-        </div>
+        </div></div>
         <div className="main34">
           <p>Mast and Harbour and Tan Brown Solid Platform Heels</p>
         </div>

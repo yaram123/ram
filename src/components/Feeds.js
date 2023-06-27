@@ -12,8 +12,8 @@ function Feeds() {
          <div className='main3'>
           <div className='main21'><img src={Frame2}></img></div>
           <div className='main22'><img src={Rectangle4}></img></div>
-          <div className='main23'><Link to="/Modal"><img src={Product}></img></Link></div>
-          <div className='main24'><img src={Product}></img></div>
+          <div className='scrool'><div className='main23'><Link to="/Modal"><img src={Product}></img></Link></div>
+          <div className='main24'><img src={Product}></img></div></div>
           <div className='main25'><img src={Frame3}></img></div>
           <div className='main26'><p>I create fashion content and express myself through my dressing style. I create fashion content and express myself through my dressing style express   See More</p></div>
           <div className='main27'><img src={Frame4}></img></div>
@@ -22,8 +22,8 @@ function Feeds() {
        <div className='main4'>
           <div className='main21'><img src={Frame2}></img></div>
           <div className='main22'><img src={Rectangle4}></img></div>
-          <div className='main23'><Link to="/Modal"><img src={Product}></img></Link></div>
-          <div className='main24'><img src={Product}></img></div>
+          <div className='scrool'><div className='main23'><Link to="/Modal"><img src={Product}></img></Link></div>
+          <div className='main24'><img src={Product}></img></div></div>
           <div className='main25'><img src={Frame3}></img></div>
           <div className='main26'><p>I create fashion content and express myself through my dressing style. I create fashion content and express myself through my dressing style express   See More</p></div>
           <div className='main27'><img src={Frame4}></img></div>
