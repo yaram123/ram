@@ -6,17 +6,27 @@ import Stores from "./components/Stores";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Feeds from "./components/Feeds";
+import Collections from "./components/Collections";
+import React  from "react";
+import { Link } from "react-router-dom";
+import Modal from "./components/Modal";
 
 function App() {
+  
   return (
     <>
        <Stores/>
        {/* <Feeds/> */}
-      {/* <Routes>
+      {<Routes>
        
-        <Route path="/" element={Stores} />
+        <Route path="/" element={<Feeds/>} />
         <Route path="/Feeds" element={<Feeds />} />
-      </Routes> */}
+        <Route path="/Collections" element={<Collections />} />
+        <Route path="/Modal" element={<Modal />} />
+        
+      </Routes>}
+      {/* <Modal/> */}
+      
     </>
   );
 }

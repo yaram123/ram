@@ -4,13 +4,28 @@ import Frame from './Frame.png'
 import Vector from './Vector.png'
 import hm from './hm.png'
 import white from './white.png'
+import Collections from './Collections'
 import Feeds from './Feeds'
+import { Link } from "react-router-dom";
+// import { useState } from 'react'
+
 
 
 
 
 
 function Stores() {
+  // const [activeTab, setActiveTab] = useState("Feeds");
+  // //  Functions to handle Tab Switching
+  // const handleTab1 = () => {
+  //   // update the state to tab1
+  //   setActiveTab("Feeds");
+  //   console.log(Feeds);
+  // };
+  // const handleTab2 = () => {
+  //   // update the state to tab2
+  //   setActiveTab("Collections");
+  // };
   return (
     <div className='black'>
     <div className='main1'>
@@ -31,13 +46,14 @@ function Stores() {
       <div className='cont1'><p>Get 20% off on your first order</p></div>
       <div className='cont2'><p>Use code FIRST20 to get 10% off </p></div>
       <div className='feeds'>
-        <p> Feeds</p>
+        <Link to="/Feeds"><p> Feeds</p></Link>
         </div>
       <div className='collections'>
-        <p> Collections</p>
+        <Link to="/Collections"><p> Collections</p></Link>
         </div>
-       
-     <Feeds/>
+      {/* <Feeds/>
+      <Collections/> */}
+      
       
     </div>
     
