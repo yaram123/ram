@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom'
 import Modal from './Modal'
 import { useState } from 'react'
 
+
 function Feeds() {
   const [openmodal,setopenmodal] = useState(false)
 

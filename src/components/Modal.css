@@ -1,9 +1,9 @@
 .modal{
     background-color: black !important;
-     margin-left: 475px;
-   margin-top: -1500px;
+     margin-left: 476px;
+   margin-top: -2150px;
    width: 360px;
-   min-height: 100vh;
+   height: 2384px;
    z-index: 999999999 !important;
    position: absolute;
    display: flex;

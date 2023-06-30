@@ -10,6 +10,7 @@ import Vector2 from "./Vector2.png";
 import "./Modal.css";
 import { useState } from "react";
 
+
 function Modal({ modal }) {
     const [quantity,setquantity] = useState(1)
     const [active,setactive] = useState()
