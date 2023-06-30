@@ -189,37 +189,128 @@ margin-left: 15px;
 margin-top: -3px;
 
 }
-
 .colorbutton{
     display: flex;
-width: 366px;
-padding: 0px 16px 0px 12px;
-align-items: flex-start;
-gap: 32px;
-margin-left: 19px;
-margin-top: -18px;
+    flex-direction: row;
+    gap: 14px;
+    width: 330px;
+    margin-left: 10px;
+    margin-top: -15px;
 }
 
-.colorbutton button{
-    width: 28px;
-height: 28px;
-border-radius: 50px;
-border: none;
 
+
+.color1{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.color1 button{
+    width: 25px;
+    height: 25px;
+}
+.color1 p{
+    font-size: 15px;
+}
+
+.color2{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.color2 button{
+    width: 25px;
+    height: 25px;
+}
+.color2 p{
+    font-size: 15px;
+}
+
+.color3{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.color3 button{
+    width: 25px;
+    height: 25px;
+}
+.color3 p{
+    font-size: 15px;
+}
+
+.color4{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.color4 button{
+    width: 25px;
+    height: 25px;
+}
+.color4 p{
+    font-size: 15px;
+}
+
+.color5{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.color5 button{
+    width: 25px;
+    height: 25px;
+}
+.color5 p{
+    font-size: 15px;
+}
+
+.color6{
+    display: flex;
+    flex-direction: column;
+    color: grey;
+}
+.color6 button{
+    width: 25px;
+    height: 25px;
+}
+.color6 p{
+    font-size: 15px;
 }
 .orange{
+    margin-left: 13px;
+    border-radius: 40px;
+    border: none;
     background-color: orange;
 }
 .yellow{
+    margin-left: 8px;
+    border-radius: 40px;
+    border: none;
     background-color: yellow;
 }
 .seagreen{
+    margin-left: 15px;
+    border-radius: 40px;
+    border: none;
     background-color: seagreen;
 }
 .blue{
+    margin-left: 5px;
+    border-radius: 40px;
+    border: none;
     background-color: blue;
 }
+.white{
+    margin-left: 5px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+}
 .gold{
+    margin-left: 5px;
+    border-radius: 40px;
+    border: none;
     background-color: gold;
 }
 .colorpara{
@@ -244,4 +335,16 @@ font-family: Raleway;
 .buynow{
     margin-left: 190px;
     margin-top: -80px;
+}
+
+.active{
+    background-color: gold;
+}
+
+.highlight{
+    /* border: 2px solid white;
+    width: 37px;
+    height: 37px; */
+    background-color: white;
+    
 }

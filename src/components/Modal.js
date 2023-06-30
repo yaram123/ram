@@ -8,8 +8,32 @@ import Frame19077 from "./Frame19077.png";
 import Frame18975 from "./Frame18975.png";
 import Vector2 from "./Vector2.png";
 import "./Modal.css";
+import { useState } from "react";
 
 function Modal({ modal }) {
+    const [quantity,setquantity] = useState(1)
+    const [active,setactive] = useState()
+    const [highlight,sethighlight] = useState()
+
+    const handleclick = (e) => {
+        setactive(e.target.id)
+    }
+
+    const handlehighlight = (e) => {
+        sethighlight(e.target.id)
+        console.log("iam ok");
+    }
+
+    const handleDecrement = () => {
+        if(quantity > 1){
+            setquantity(prevCount => prevCount - 1)
+        }
+        
+    }
+    const handleIncrement = () => {
+        setquantity(prevCount => prevCount + 1)
+    }
+
   return (
     <div className="modal">
       <div className="img1">
@@ -39,40 +63,44 @@ function Modal({ modal }) {
       <div className=""><p className="img7">100% Cotton. Available in plain or floral print. Straight design. Mao neckline. Long sleeve. Button fastening on the front section... Read more</p></div>
       <div className=""><p className="img8">Quality</p></div>
       <div className="quality">
-        <button>-</button>
-        <p>1</p>
-        <button>+</button>
+        <button onClick={handleDecrement}>-</button>
+        <p>{quantity}</p>
+        <button onClick={handleIncrement}>+</button>
       </div>
       <p className="size">Size</p>
       <div className="sizebutton">
-        <button>XS</button>
-        <button>S</button>
-        <button>M</button>
-        <button>L</button>
+        <button onClick={handleclick} className={active === "1" ? "active" : undefined} id={"1"}>XS</button>
+        <button onClick={handleclick} className={active === "2" ? "active" : undefined} id={"2"}>S</button>
+        <button onClick={handleclick} className={active === "3" ? "active" : undefined} id={"3"}>M</button>
+        <button onClick={handleclick} className={active === "4" ? "active" : undefined} id={"4"}>L</button>
 
       </div>
       <p className="color">Color</p>
       <div className="colorbutton">
+       <div onClick={handlehighlight} className={highlight === "1" ? "highlight" : undefined} id={"1"} > <div className="color1" >
         <button className="orange"></button>
-        
+        <p>Orange</p>
+      </div></div>
+     <div onClick={handlehighlight} className={highlight === "2" ? "highlight" : undefined} id={"2"}> <div className="color2">
         <button className="yellow"></button>
-        
+        <p>Yellow</p>
+      </div></div>
+      <div onClick={handlehighlight} className={highlight === "3" ? "highlight" : undefined} id={"3"}><div className="color3">
         <button className="seagreen"></button>
-        
+        <p>Sea Green</p>
+      </div></div>
+      <div onClick={handlehighlight} className={highlight === "4" ? "highlight" : undefined} id={"4"}><div className="color4">
         <button className="blue"></button>
-        
+        <p>Blue</p>
+      </div></div>
+      <div  onClick={handlehighlight} className={highlight === "5" ? "highlight" : undefined} id={"5"}><div className="color5">
         <button className="white"></button>
-       
+        <p>white</p>
+      </div></div>
+     <div onClick={handlehighlight} className={highlight === "6" ? "highlight" : undefined} id={"6"}> <div className="color6">
         <button className="gold"></button>
-        
-      </div>
-      <div className="colorpara">
-      <p>Orange</p>
-      <p>Yellow</p>
-      <p>Seagreen</p>
-      <p>Blue</p>
-      <p>White</p>
-      <p>Gold</p>
+        <p>Gold</p>
+      </div></div>
       </div>
       <div className='add'><img src={Frame19077}></img></div>
         <div className='buynow'><img src={Frame18975}></img></div>
