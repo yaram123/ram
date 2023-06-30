@@ -19,7 +19,7 @@ function Collections() {
           <p>Mast and Harbour and Tan Brown Solid Platform Heels</p>
         </div>
         <div className="main35">
-        <Link to="/Modal"><button>Buy now</button></Link>
+        <button>Buy now</button>
         </div>
       </div>
 
@@ -37,7 +37,7 @@ function Collections() {
           <p>Mast and Harbour and Tan Brown Solid Platform Heels</p>
         </div>
         <div className="main35">
-        <Link to="/Modal"><button>Buy now</button></Link>
+        <button>Buy now</button>
         </div>
       </div>
     </>

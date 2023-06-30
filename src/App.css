@@ -1,6 +1,14 @@
+body{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  
+}
+
+
 .black{
   display: flex;
-  margin-left: 450px;
+  margin-left: 476px;
   /* border: 2px solid; */
   width: 360px;
   height: 2384px;
@@ -177,8 +185,9 @@ cursor: pointer;
   height: auto;
   /* border: 2px solid; */
   margin-top: -1530px;
+  position: relative;
   margin-bottom: 600px;
-  margin-left: 470px;
+  margin-left: 490px;
   
 
 
@@ -222,7 +231,7 @@ margin-left: 7px;
 
 .main4{
   margin-top: -560px;
-  margin-left: 470px;
+  margin-left: 490px;
 }
 
 .scrool{
@@ -232,7 +241,7 @@ margin-left: 7px;
 }
 
 .scrool2{
-  border: 2px solid;
+  /* border: 2px solid; */
   width: 330px;
   margin-left: -410px;
   overflow-x:hidden;
@@ -302,14 +311,14 @@ height: 24px;
 }
 
 .main5{
-  margin-left: 860px;
+  margin-left: 880px;
   margin-bottom: 900px;
   margin-top: -2390px;
 }
 
 .main6{
   margin-top: -860px;
-  margin-left: 860px;
+  margin-left: 880px;
 }
 
 
@@ -320,19 +329,43 @@ height: 24px;
 } */
 
 .new{
-  margin-left: 450px;
-  margin-top: -1500px;
+  /* margin-left: 475px;
+  margin-top: -1500px; */
   /* border: 2px solid; */
+
   width: 360px;
-  height: 1004px;
-  background-color: black;
+  height: 100vh;
+  /* position: absolute; */
+  background-color: black !important;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  
+  
+}
+.img1{
+  position: relative;
+}
+.img1 img{
+  width: 360px ;
+ 
 }
 
+.img5 img{
+  width: 360px;
+}
 .img7{
   margin-left: 200px;
   margin-top: -80px;
+  /* border: 2px solid white; */
+}
+
+.button img{
+  /* border: 2px solid white; */
+  width: 13px;
+  height: 13px;
+  margin-top: -436px;
+  margin-left: 320px;
+  position: absolute;
 }
 
