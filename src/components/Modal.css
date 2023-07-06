@@ -1,7 +1,7 @@
 .modal{
     background-color: black !important;
      margin-left: 476px;
-   margin-top: -2150px;
+   margin-top: -2190px;
    width: 360px;
    height: 2384px;
    z-index: 999999999 !important;
@@ -200,17 +200,22 @@ margin-top: -3px;
 
 
 
-.color1{
+/* .color1{
     display: flex;
     flex-direction: column;
     color: grey;
-}
-.color1 button{
+} */
+.color1button{
     width: 25px;
     height: 25px;
+    margin-left: 13px;
+    border-radius: 40px;
+    border: none;
+    background-color: orange;
 }
-.color1 p{
+.color1p{
     font-size: 15px;
+    color: gray;
 }
 
 .color2{
@@ -218,12 +223,17 @@ margin-top: -3px;
     flex-direction: column;
     color: grey;
 }
-.color2 button{
+.color2button{
     width: 25px;
     height: 25px;
+    margin-left: 8px;
+    border-radius: 40px;
+    border: none;
+    background-color: yellow;
 }
-.color2 p{
+.color2p{
     font-size: 15px;
+    color: gray;
 }
 
 .color3{
@@ -231,12 +241,17 @@ margin-top: -3px;
     flex-direction: column;
     color: grey;
 }
-.color3 button{
+.color3button{
     width: 25px;
     height: 25px;
+    margin-left: 15px;
+    border-radius: 40px;
+    border: none;
+    background-color: seagreen;
 }
-.color3 p{
+.color3p{
     font-size: 15px;
+    color: gray;
 }
 
 .color4{
@@ -244,25 +259,36 @@ margin-top: -3px;
     flex-direction: column;
     color: grey;
 }
-.color4 button{
+.color4button{
     width: 25px;
     height: 25px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border: none;
+    background-color: blue;
 }
-.color4 p{
+.color4p{
     font-size: 15px;
+    color: gray;
 }
 
 .color5{
     display: flex;
     flex-direction: column;
     color: grey;
+    
 }
-.color5 button{
+.color5button{
     width: 25px;
     height: 25px;
+    margin-left: 5px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
 }
-.color5 p{
+.color5p{
     font-size: 15px;
+    color: gray;
 }
 
 .color6{
@@ -270,48 +296,35 @@ margin-top: -3px;
     flex-direction: column;
     color: grey;
 }
-.color6 button{
+.color6button{
     width: 25px;
     height: 25px;
-}
-.color6 p{
-    font-size: 15px;
-}
-.orange{
-    margin-left: 13px;
-    border-radius: 40px;
-    border: none;
-    background-color: orange;
-}
-.yellow{
-    margin-left: 8px;
-    border-radius: 40px;
-    border: none;
-    background-color: yellow;
-}
-.seagreen{
-    margin-left: 15px;
-    border-radius: 40px;
-    border: none;
-    background-color: seagreen;
-}
-.blue{
-    margin-left: 5px;
-    border-radius: 40px;
-    border: none;
-    background-color: blue;
-}
-.white{
-    margin-left: 5px;
-    border-radius: 40px;
-    border: none;
-    background-color: white;
-}
-.gold{
     margin-left: 5px;
     border-radius: 40px;
     border: none;
     background-color: gold;
+}
+.color6p{
+    font-size: 15px;
+    color: gray;
+}
+.orange{
+    
+}
+.yellow{
+    
+}
+.seagreen{
+    
+}
+.blue{
+    
+}
+.white{
+   
+}
+.gold{
+    
 }
 .colorpara{
     display: flex;
@@ -342,9 +355,11 @@ font-family: Raleway;
 }
 
 .highlight{
-    /* border: 2px solid white;
-    width: 37px;
-    height: 37px; */
-    background-color: white;
+    border: 2px solid white;
+    width: 28px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 20px;
+    /* background-color: white; */
     
 }

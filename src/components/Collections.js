@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Collections() {
   return (
-    <>
+    <div>
       <div className="main5">
         <div className="main31">
           <p>Beauty Products</p>
@@ -40,7 +40,7 @@ function Collections() {
         <button>Buy now</button>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -6,6 +6,7 @@ body{
   align-items: center;
   margin: 0 auto;
   
+  
 }
 
 
@@ -218,9 +219,14 @@ cursor: pointer;
 }
 
 .likes{
-  margin-left: 5px;
+  margin-left: 25px;
   color: white;
-  margin-top: -10px;
+  margin-top: -25px;
+}
+.comment{
+  margin-left: 90px;
+  margin-top: -35px;
+  margin-bottom: 33px;
 }
 .main25 img{
   margin-left: 5px;
@@ -405,3 +411,30 @@ height: 24px;
   position: absolute;
 }
 
+
+.commentbox{
+  border: 2px solid black;
+  background-color: white !important;
+  width: 357px;
+  height: 600px;
+  z-index: 999999999 !important;
+  margin-left:;
+  margin-top: -900px;
+
+}
+
+.comments{
+  /* border: 2px solid;
+  width: 80px;
+  height: 80px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-left: 50px; */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 70px;
+  padding-right: 20px;
+  overflow-x:auto;
+  
+}

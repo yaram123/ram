@@ -78,30 +78,42 @@ function Modal({ modal }) {
       </div>
       <p className="color">Color</p>
       <div className="colorbutton">
-       <div onClick={handlehighlight} className={highlight === "1" ? "highlight" : undefined} id={"1"} > <div className="color1" >
-        <button className="orange"></button>
-        <p>Orange</p>
-      </div></div>
-     <div onClick={handlehighlight} className={highlight === "2" ? "highlight" : undefined} id={"2"}> <div className="color2">
-        <button className="yellow"></button>
-        <p>Yellow</p>
-      </div></div>
-      <div onClick={handlehighlight} className={highlight === "3" ? "highlight" : undefined} id={"3"}><div className="color3">
-        <button className="seagreen"></button>
-        <p>Sea Green</p>
-      </div></div>
-      <div onClick={handlehighlight} className={highlight === "4" ? "highlight" : undefined} id={"4"}><div className="color4">
-        <button className="blue"></button>
-        <p>Blue</p>
-      </div></div>
-      <div  onClick={handlehighlight} className={highlight === "5" ? "highlight" : undefined} id={"5"}><div className="color5">
-        <button className="white"></button>
-        <p>white</p>
-      </div></div>
-     <div onClick={handlehighlight} className={highlight === "6" ? "highlight" : undefined} id={"6"}> <div className="color6">
-        <button className="gold"></button>
-        <p>Gold</p>
-      </div></div>
+       <div  >
+         <div onClick={handlehighlight} className={highlight === "1" ? "highlight" : undefined} id={"1"} >
+        <button className="color1button"></button>
+        <p className="color1p">Orange</p>
+         </div>
+       </div>
+     <div >
+       <div onClick={handlehighlight} className={highlight === "2" ? "highlight" : undefined} id={"2"} >
+        <button className="color2button"></button>
+        <p className="color2p">Yellow</p>
+       </div>
+      </div>
+      <div >
+        <div onClick={handlehighlight} className={highlight === "3" ? "highlight" : undefined} id={"3"}>
+        <button className="color3button"></button>
+        <p className="color3p">Sea Green</p>
+        </div>
+      </div>
+      <div >
+        <div onClick={handlehighlight} className={highlight === "4" ? "highlight" : undefined} id={"4"}>
+        <button className="color4button"></button>
+        <p className="color4p">Blue</p>
+        </div>
+      </div>
+      <div >
+        <div  onClick={handlehighlight} className={highlight === "5" ? "highlight" : undefined} id={"5"}>
+        <button className="color5button"></button>
+        <p className="color5p">white</p>
+        </div>
+      </div>
+      <div > 
+       <div onClick={handlehighlight} className={highlight === "6" ? "highlight" : undefined} id={"6"} >
+        <button className="color6button"></button>
+        <p className="color6p">Gold</p>
+       </div>
+      </div>
       </div>
       <div className='add'><img src={Frame19077}></img></div>
         <div className='buynow'><img src={Frame18975}></img></div>
