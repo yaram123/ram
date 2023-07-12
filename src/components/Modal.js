@@ -13,7 +13,7 @@ import { useState } from "react";
 
 function Modal({ modal }) {
     const [quantity,setquantity] = useState(1)
-    const [active,setactive] = useState()
+    const [active,setactive] = useState([])
     const [highlight,sethighlight] = useState()
 
     const handleclick = (e) => {

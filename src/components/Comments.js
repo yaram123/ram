@@ -8,12 +8,10 @@ function Comments({comments,data}) {
        <img src={Vector2} onClick={() => {
             comments(false);
           }}></img>
-
-         {data.map((item)=><div className='comments'>
+           
+         {data.length>0?data.map((item)=><div className='comments'>
             {item.command}
-
-
-          </div>)}
+          </div>):<p>NO coments</p>}
     </div>
   )
 }

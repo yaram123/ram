@@ -14,7 +14,7 @@ import Comments from "./Comments";
 function Feeds() {
   const [openmodal, setopenmodal] = useState(false);
   const [opencomments, setopencomments] = useState(false);
-  const [post, setpost] = useState();
+  const [post, setpost] = useState([]);
   const [command, setComand] = useState("");
   
 
@@ -104,10 +104,10 @@ function Feeds() {
           <button onClick={()=>{
               let obj = {
                   command:command
-            
               }
-              setComand("")
+              
               post.push(obj)
+              setComand("")
               
               console.log(post);
           }}>Post</button>
